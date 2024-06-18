@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/static/woff2/SUIT.css");
+
+:root {
+    --background-color: #303030;
+    --text-color: #ffffff;
+    --main-color: #d49558;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  /*배경색 지정, margin 0*/
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: 'SUIT', sans-serif;
+}
+
+.navbar {
+    display: flex;  /*가로로*/
+    justify-content: space-between; /*공간 만들기*/
+    align-items: center;    /*중앙 정렬*/
+    padding: 8px 12px;  /*공간 픽셀*/
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.navbar_logo {  /*FitMate 로고*/
+    list-style: none;
+    margin: 0;
+    padding-left: 100;
+}
+
+.navbar_logo li {
+    padding: 20px 12px;
+}
+
+.logo_image {
+    fill: #f18e1e;
+    width: 177px;
+    height: 46px;
+}
+
+/* .navbar_logo a {
+    font-size: 15px;
+    font-weight: 700;
+} */
+
+.navbar_menu {  /*메뉴들*/
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+  
+.navbar_menu li {   /*메뉴들 사이 공간*/
+    padding: 8px 30px;
+}
+
+.navbar_menu a {    /*메뉴들 폰트 크기, 굵기*/
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* menu.css */
+
+.navbar_menu .nav-link {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar_menu .nav-link.active {
+    font-weight: bolder !important;/* 글씨 두껍게 */
+    color: var(--main-color); /* 선택된 항목의 색상 변경 (옵션) */
+}

@@ -1,0 +1,394 @@
+@import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/static/woff2/SUIT.css");
+
+.div4 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-SemiBold", sans-serif;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 600;
+    position: absolute;
+    left: 810px;
+    top: 283px;
+  }
+  .div5 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Light", sans-serif;
+    font-size: 29px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 300;
+    position: absolute;
+    left: 920px;
+    top: 291px;
+  }
+  .div6 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 27px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 313px;
+    top: 396px;
+  }
+  .div7 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 27px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 319px;
+    top: 683px;
+  }
+  .group-10 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 828px;
+    top: 196px;
+    overflow: visible;
+  }
+  .component-11 {
+    border-radius: 20px;
+    width: 1103px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 551px);
+    top: 444px;
+  }
+  .rectangle-43 {
+    background: #393939;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+  }
+  .component-17 {
+    border-radius: 20px;
+    width: 1100px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 548px);
+    top: 504px;
+  }
+  .component-18 {
+    border-radius: 20px;
+    width: 1100px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 545px);
+    top: 729px;
+  }
+  .component-19 {
+    border-radius: 20px;
+    width: 1097px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 545px);
+    top: 789px;
+  }
+  .component-20 {
+    border-radius: 100px;
+    width: 1100px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 545px);
+    top: 853px;
+  }
+  .component-21 {
+    border-radius: 20px;
+    width: 1097px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 545px);
+    top: 917px;
+  }
+  .div8 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 336px;
+    top: 454px;
+  }
+  ._5-yeonchu {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 300;
+    position: absolute;
+    left: 489px;
+    top: 454px;
+  }
+  .div9 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 300;
+    position: absolute;
+    left: 489px;
+    top: 514px;
+  }
+  ._20-xx-xx-xx {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 300;
+    position: absolute;
+    left: 489px;
+    top: 739px;
+  }
+  .xx-cm {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 300;
+    position: absolute;
+    left: 489px;
+    top: 799px;
+  }
+  .xx-kg {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Pretendard-Light", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 300;
+    position: absolute;
+    left: 489px;
+    top: 865px;
+    width: 97px;
+  }
+  .div10 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 336px;
+    top: 514px;
+  }
+  .div11 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 336px;
+    top: 739px;
+  }
+  .div12 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 336px;
+    top: 799px;
+  }
+  .div13 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 335px;
+    top: 928px;
+  }
+  .div14 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 335px;
+    top: 862px;
+    width: 105px;
+  }
+  .div15 {
+    color: #f1e7e7;
+    text-align: center;
+    font-family: "Suit-ExtraLight", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 200;
+    text-decoration: underline;
+    position: absolute;
+    left: calc(50% - 23px);
+    top: 1030px;
+    width: 93px;
+    height: 26px;
+  }
+  .vector-32 {
+    width: 24px;
+    height: 0px;
+    position: absolute;
+    left: 467px;
+    top: 459px;
+    transform: translate(-0.5px, -0.5px);
+    overflow: visible;
+  }
+  .vector-33 {
+    width: 24px;
+    height: 0px;
+    position: absolute;
+    left: 467px;
+    top: 517px;
+    transform: translate(-0.5px, -0.5px);
+    overflow: visible;
+  }
+  .vector-34 {
+    width: 24px;
+    height: 0px;
+    position: absolute;
+    left: 467px;
+    top: 742px;
+    transform: translate(-0.5px, -0.5px);
+    overflow: visible;
+  }
+  .vector-35 {
+    width: 24px;
+    height: 0px;
+    position: absolute;
+    left: 467px;
+    top: 802px;
+    transform: translate(-0.5px, -0.5px);
+    overflow: visible;
+  }
+  .vector-38 {
+    width: 24px;
+    height: 0px;
+    position: absolute;
+    left: 467px;
+    top: 868px;
+    transform: translate(-0.5px, -0.5px);
+    overflow: visible;
+  }
+  .vector-36 {
+    width: 24px;
+    height: 0px;
+    position: absolute;
+    left: 467px;
+    top: 930px;
+    transform: translate(-0.5px, -0.5px);
+    overflow: visible;
+  }
+  .rectangle-36 {
+    border-radius: 0px;
+    width: 84.71px;
+    height: 25.59px;
+    position: absolute;
+    left: 480px;
+    top: 930px;
+    overflow: visible;
+  }
+  .group-69 {
+    position: absolute;
+    inset: 0;
+  }
+  .component-24 {
+    border-radius: 20px;
+    width: 1100px;
+    height: 47.17px;
+    position: absolute;
+    left: calc(50% - 548px);
+    top: 566.83px;
+  }
+  .div16 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 336px;
+    top: 576.26px;
+    width: 107px;
+    height: 28.3px;
+  }
+  .vector-41 {
+    width: 22.64px;
+    height: 0px;
+    position: absolute;
+    left: 467px;
+    top: 579.09px;
+    overflow: visible;
+  }
+  .component-25 {
+    border-radius: 20px;
+    width: 1100px;
+    height: 47.17px;
+    position: absolute;
+    left: calc(50% - 548px);
+    top: 564px;
+  }
+  .div17 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 700;
+    position: absolute;
+    left: 336px;
+    top: 573.43px;
+    width: auto;
+    height: 28.3px;
+  }
+  .vector-42 {
+    width: 22.64px;
+    height: 0px;
+    position: absolute;
+    left: 467px;
+    top: 576.26px;
+    overflow: visible;
+  }
+  
