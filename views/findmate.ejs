@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>findmate</title>
+        <link rel="stylesheet" href="findmate.css">
+    </head>
+
+    <body>
+
+        
+            <%- include('menu.html') %>
+            <div class="div">
+                <div class="component-26" onclick="toggleDiv15()">
+                  <div class="rectangle-73"></div>
+                </div>
+                <div class="component-27">
+                  <div class="rectangle-73"></div>
+                </div>
+                <div class="component-28">
+                  <div class="rectangle-73"></div>
+                </div>
+                <div class="component-29">
+                  <div class="rectangle-73"></div>
+                </div>
+                <div class="component-30">
+                  <div class="rectangle-73"></div>
+                </div>
+                <div class="component-31">
+                  <div class="rectangle-73"></div>
+                </div>
+                
+                
+                <div class="rectangle-67"></div>
+                <div class="rectangle-68"></div>
+                <div class="div4">찾을 메이트의 아이디를 입력해주세요</div>
+                <div class="div5">
+                  선택한 카테고리를 관심 운동으로 설정한 메이트들만 보여집니다
+                </div>
+                <div class="div6">검색</div>
+                <div class="div7">메이트 찾기</div>
+                <img class="vector-33" src="vector-330.svg" />
+                <div class="div8">카테고리</div>
+                <div class="div9">걷기</div>
+                <div class="div10">달리기</div>
+                <div class="div11">수영</div>
+                <div class="div12">헬스</div>
+                <div class="div13">필라테스</div>
+                <div class="div14">사이클</div>
+            </div>
+              
+            <div class="div15" id="div15" style="display: none;">
+                <div class="div16">메이트 이름</div>
+                <div class="div17">메이트 이름</div>
+                <div class="div18">메이트 이름</div>
+                <div class="div19">메이트 이름</div>
+                <div class="div20">메이트 이름</div>
+                <img class="group-10" src="profile_pic.svg" />
+                <img class="group-65" src="profile_pic.svg" />
+                <img class="group-66" src="profile_pic.svg" />
+                <img class="group-67" src="profile_pic.svg" />
+                <img class="group-68" src="profile_pic.svg" />
+
+                
+
+                <img class="plus-1" data-id="user1" src="plus_pic.svg" /> 
+                <img class="plus-2" data-id="user1" src="plus_pic.svg" />
+                <img class="plus-3" data-id="user1" src="plus_pic.svg" />
+                <img class="plus-4" data-id="user1" src="plus_pic.svg" />
+                <img class="plus-5" data-id="user1"src="plus_pic.svg" />
+            </div>
+
+            <div id="addMateModal" class="modal">
+                <div class="modal-content">
+                    <p id="addMateText"></p>
+                    <button onclick="confirmAddMate()">추가</button>
+                    <button onclick="closeModal()">취소</button>
+                </div>
+            </div>
+
+            <div id="confirmationModal" class="modal">
+                <div class="modal-content">
+                    <p>추가되었습니다</p>
+                    <button onclick="closeModal()">확인</button>
+                </div>
+            </div>
+        
+        <script>
+            function toggleDiv15() {
+                const div15 = document.getElementById('div15');
+                if (div15.style.display === 'none') {
+                    div15.style.display = 'block';
+                } else {
+                    div15.style.display = 'none';
+                }
+            }
+
+            function openAddMateModal(id) {
+            document.getElementById('addMateText').innerText = `${id}님을 메이트로 추가할까요?`;
+            document.getElementById('addMateModal').style.display = 'block';
+        }
+
+        function confirmAddMate() {
+            document.getElementById('addMateModal').style.display = 'none';
+            document.getElementById('confirmationModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('addMateModal').style.display = 'none';
+            document.getElementById('confirmationModal').style.display = 'none';
+        }
+
+        // Attach event listeners to plus buttons
+        document.querySelectorAll('.plus-1, .plus-2, .plus-3, .plus-4, .plus-5').forEach(button => {
+            button.addEventListener('click', function() {
+                const id = button.getAttribute('data-id');
+                openAddMateModal(id);
+            });
+        });
+        </script>
+    </body>
+</html>  
+
+
+
