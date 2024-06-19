@@ -1,0 +1,528 @@
+.div,
+.div * {
+  box-sizing: border-box;
+}
+.div {
+  background: #303030;
+  height: 1380px;
+  position: relative;
+  overflow: hidden;
+}
+.component-26 {
+  width: 188px;
+  height: 68px;
+  position: absolute;
+  left: 252px;
+  top: 532px;
+}
+.rectangle-73 {
+  background: #3e3e3e;
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.component-27 {
+  width: 188px;
+  height: 68px;
+  position: absolute;
+  left: 460px;
+  top: 532px;
+}
+.component-28 {
+  width: 188px;
+  height: 68px;
+  position: absolute;
+  left: 668px;
+  top: 532px;
+}
+.component-29 {
+  width: 188px;
+  height: 68px;
+  position: absolute;
+  left: 876px;
+  top: 532px;
+}
+.component-30 {
+  width: 188px;
+  height: 68px;
+  position: absolute;
+  left: 1084px;
+  top: 532px;
+}
+.component-31 {
+  width: 188px;
+  height: 68px;
+  position: absolute;
+  left: 1292px;
+  top: 532px;
+}
+.fit-mate {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Amiko-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 121px;
+  top: 48px;
+  width: 187px;
+  height: 65px;
+}
+._1 {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 43px;
+  top: 46px;
+  object-fit: cover;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 787px;
+  top: 65px;
+}
+.div2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-ExtraLight", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 200;
+  position: relative;
+}
+.navigation2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 44px;
+  position: absolute;
+  left: 951px;
+  top: 65px;
+}
+.navigation3 {
+  width: 131px;
+  height: 44px;
+  position: absolute;
+  left: 1140px;
+  top: 65px;
+}
+.div3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 700;
+  position: absolute;
+  right: 17.56%;
+  left: 0%;
+  width: 82.44%;
+  bottom: 18.18%;
+  top: 0%;
+  height: 81.82%;
+}
+.navigation4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 151px;
+  height: 44px;
+  position: absolute;
+  left: 1328px;
+  top: 65px;
+}
+.navigation5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  height: 44px;
+  position: absolute;
+  left: 1537px;
+  top: 65px;
+}
+.rectangle-67 {
+  background: #3e3e3e;
+  border-radius: 3px;
+  width: 1224px;
+  height: 59px;
+  position: absolute;
+  left: calc(50% - 590px);
+  top: 325px;
+}
+.rectangle-68 {
+  background: #3e3e3e;
+  border-radius: 3px;
+  width: 97px;
+  height: 59px;
+  position: absolute;
+  left: calc(50% - -515px);
+  top: 325px;
+}
+.div4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 500;
+  position: absolute;
+  left: 252px;
+  top: 283px;
+}
+.div5 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 500;
+  position: absolute;
+  left: 252px;
+  top: 489px;
+}
+.div6 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 700;
+  position: absolute;
+  left: 1404px;
+  top: 336px;
+}
+.div7 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-ExtraBold", sans-serif;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 800;
+  position: absolute;
+  left: 252px;
+  top: 185px;
+}
+.vector-33 {
+  width: 24px;
+  height: 0px;
+  position: absolute;
+  left: 268px;
+  top: 342px;
+  transform: translate(-0.5px, -0.5px);
+  overflow: visible;
+}
+.div8 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-ExtraBold", sans-serif;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 800;
+  position: absolute;
+  left: 252px;
+  top: 423px;
+}
+.div9 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 400;
+  position: absolute;
+  left: 269px;
+  top: 548px;
+  width: 50px;
+  height: 36px;
+}
+.div10 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 400;
+  position: absolute;
+  left: 684px;
+  top: 548px;
+  width: 151px;
+  height: 36px;
+}
+.div11 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 400;
+  position: absolute;
+  left: 1306px;
+  top: 548px;
+  width: 107px;
+  height: 36px;
+}
+.div12 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 400;
+  position: absolute;
+  left: 477px;
+  top: 548px;
+  width: 106px;
+  height: 36px;
+}
+.div13 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 400;
+  position: absolute;
+  left: 892px;
+  top: 548px;
+  width: 106px;
+  height: 36px;
+}
+.div14 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Suit-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.022000000000000002em;
+  font-weight: 400;
+  position: absolute;
+  left: 1099px;
+  top: 548px;
+  width: 107px;
+  height: 36px;
+}
+
+
+
+.div15 {
+    background: #3e3e3e;
+    border-radius: 2px;
+    width: 332px;
+    height: 324px;
+    position: absolute;
+    left: 252px;
+    top: 730px;
+    display: none;
+  }
+  .div16 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-ExtraLight", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 200;
+    position: absolute;
+    left: 63px;
+    top: 22px;
+    width: auto;
+    height: 21px;
+  }
+  .div17 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-ExtraLight", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 200;
+    position: absolute;
+    left: 63px;
+    top: 87px;
+    width: auto;
+    height: 21px;
+  }
+  .div18 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-ExtraLight", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 200;
+    position: absolute;
+    left: 63px;
+    top: 152px;
+    width: auto;
+    height: 21px;
+  }
+  .div19 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-ExtraLight", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 200;
+    position: absolute;
+    left: 63px;
+    top: 217px;
+    width: auto;
+    height: 21px;
+  }
+  .div20 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Suit-ExtraLight", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.022000000000000002em;
+    font-weight: 200;
+    position: absolute;
+    left: 63px;
+    top: 282px;
+    width: auto;
+    height: 21px;
+  }
+  .group-10 {
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    overflow: visible;
+    width: 32px;
+    height: 32px;
+  }
+  .group-65 {
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 81px;
+    overflow: visible;
+    width: 32px;
+    height: 32px;
+  }
+  .group-66 {
+    height: auto;
+    position: absolute;
+    left: 19px;
+    top: 146px;
+    overflow: visible;
+    width: 32px;
+    height: 32px;
+  }
+  .group-67 {
+    height: auto;
+    position: absolute;
+    left: 19px;
+    top: 211px;
+    overflow: visible;
+    width: 32px;
+    height: 32px;
+  }
+  .group-68 {
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 276px;
+    overflow: visible;
+    width: 32px;
+    height: 32px;
+  }
+  .plus-1 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 280px;
+    top: 15px;
+  }
+
+ .plus-2 {
+   width: 32px;
+   height: 32px;
+   position: absolute;
+   left: 280px;
+   top: 80px;
+ }
+ .plus-3 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 280px;
+    top: 145px;
+  }
+  .plus-4 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 280px;
+    top: 210px;
+  }
+  .plus-5 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 280px;
+    top: 275px;
+  }
+
+  /* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #3e3e3e;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: #ffffff;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
