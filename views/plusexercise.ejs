@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>plusexercise</title>
+        <link rel="stylesheet" href="plusexercise.css">
+    </head>
+
+    <body>
+        <%- include('menu.html') %>
+        <div class="div4">운동 추가</div>
+        <div class="div5">카테고리</div>
+        <div class="rectangle-67"></div>
+        <div class="rectangle-68"></div>
+        <div class="rectangle-69"></div>
+        <div class="rectangle-70"></div>
+        <div class="rectangle-71"></div>
+        <div class="rectangle-72"></div>
+        <div class="div6">걷기</div>
+        <div class="div7">달리기</div>
+        <div class="div8">수영</div>
+        <div class="div9">헬스</div>
+        <div class="div10">필라테스</div>
+        <div class="div11">사이클</div>
+        
+        <img class="plus-1" data-id="ex1" src="plus_pic.svg" /> 
+        <img class="plus-2" data-id="ex2" src="plus_pic.svg" />
+        <img class="plus-3" data-id="ex3" src="plus_pic.svg" />
+        <img class="plus-4" data-id="ex4" src="plus_pic.svg" />
+        <img class="plus-5" data-id="ex5" src="plus_pic.svg" />
+        <img class="plus-6" data-id="ex6" src="plus_pic.svg" />
+
+        <!-- Modal for confirmation -->
+        <div id="confirmationModal" class="modal">
+            <div class="modal-content">
+                <p>추가되었습니다</p>
+                <button onclick="closeModal()">확인</button>
+            </div>
+        </div>
+
+        <script>
+            function showConfirmationModal() {
+                document.getElementById('confirmationModal').style.display = 'block';
+            }
+
+            function closeModal() {
+                document.getElementById('confirmationModal').style.display = 'none';
+            }
+
+            // Attach event listeners to plus buttons
+            document.querySelectorAll('.plus-1, .plus-2, .plus-3, .plus-4, .plus-5, .plus-6').forEach(button => {
+                button.addEventListener('click', function() {
+                    showConfirmationModal();
+                });
+            });
+        </script>
+    </body>
+</html>
